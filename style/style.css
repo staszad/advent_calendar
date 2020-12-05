@@ -1,0 +1,151 @@
+html {
+  background-color: #1f4045;
+  color: #fff;
+}
+
+header {
+  background-color: #249e80;
+  border-bottom: solid 10px #1b6a5b;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.day {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#flexparent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  margin: 5vh 0px 5vh 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15vw 15vw 15vw 15vw;
+      grid-template-columns: 15vw 15vw 15vw 15vw;
+  gap: 3vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .day, main img {
+  width: 15vw;
+}
+
+header {
+  height: 16vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  font-size: 5vh;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header img {
+  width: 16vh;
+  height: 16vh;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header h1 {
+  max-width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.mobile header {
+  height: 15vh;
+}
+
+.mobile h1 {
+  font-size: 6.3vw;
+  max-width: 50%;
+}
+
+.mobile .img {
+  width: 20vw;
+  height: 20vw;
+}
+
+.mobile main {
+  -ms-grid-columns: (20vw)[4];
+      grid-template-columns: repeat(4, 20vw);
+}
+
+.mobile .day {
+  width: 20vw;
+}
+
+.mobile #alert {
+  width: 75vw;
+  height: 30vh;
+  margin: none;
+  font-size: 2vh;
+}
+
+html {
+  background-color: #1f4045;
+  color: #fff;
+}
+
+header {
+  background-color: #249e80;
+  border-bottom: solid 10px #1b6a5b;
+}
+
+body {
+  position: relative;
+}
+
+#alert {
+  width: 50vw;
+  height: 50vh;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+  border: #fff solid 2px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #1f4045;
+  font-size: 2em;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#alert p {
+  margin: 10%;
+  width: 100%;
+}
+
+#alert button {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  color: #1f4045;
+}
+/*# sourceMappingURL=style.css.map */
